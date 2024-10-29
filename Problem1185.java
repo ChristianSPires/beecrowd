@@ -5,7 +5,6 @@ public class Problem1185 {
         Scanner sc = new Scanner(System.in);
         float sum = 0;
         float[][] M = new float[12][12];
-
         char operation = Character.toUpperCase(sc.next().charAt(0));
 
         for (int row = 0 ; row < 12; row++) {
