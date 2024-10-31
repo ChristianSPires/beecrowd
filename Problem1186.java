@@ -21,10 +21,9 @@ public class Problem1186 {
             }
         }
 
-        if(O == 'S') {
-            System.out.printf("%.1f%n", sum);
-        } else if(O == 'M') {
-            System.out.printf("%.1f%n", sum / 66);
-        }
+        if (O == 'M') sum /= 30;
+        System.out.printf("%.1f%n", sum);
+
+        sc.close();
     }
 }
